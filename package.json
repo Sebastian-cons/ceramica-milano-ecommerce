@@ -1,0 +1,19 @@
+{
+  "name": "ceramica-milano-bigquery",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web de Cerámica Milano conectada a Google BigQuery para registrar compras y pruebas de carga.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^8.1.1",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
